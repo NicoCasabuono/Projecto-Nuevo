@@ -1,0 +1,25 @@
+{
+  "name": "Proyecto",
+  "version": "1.0.0",
+  "description": "<h3 align=\"center\"></h3>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NicoCasabuono/Proyecto-Nuevo.git"
+  },
+  "author": "Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoCasabuono/Proyecto-Nuevo.git"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
